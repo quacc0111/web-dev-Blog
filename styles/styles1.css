@@ -1,0 +1,30 @@
+/* styles.css */
+body {
+    background-color: beige;
+    color: darkblue; /* Applies white text color to all text */
+    font-family: Arial, sans-serif;
+}
+h4{
+    color: red;
+    text-align: left;
+}h3
+{
+    color: yellow;
+    text-align: left;
+}
+h2{
+    color: green;
+    text-align: left;
+}
+h1{ 
+    color: darkblue;
+    text-align: center;
+}
+p {
+    color: white; /* Ensures all paragraphs are white */
+    font-size: 16px;
+    line-height: 1.5;
+}
+b{
+    color:red
+}
