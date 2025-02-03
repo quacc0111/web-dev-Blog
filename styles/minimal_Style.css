@@ -1,0 +1,26 @@
+body {
+    background-color: #F8FAFC;
+    color: #1E293B;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: #2563EB;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1E40AF;
+}
+
+button {
+    background-color: #2563EB;
+    color: #F8FAFC;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1E40AF;
+}

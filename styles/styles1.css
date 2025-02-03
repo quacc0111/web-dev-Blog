@@ -1,11 +1,23 @@
 /* styles.css */
 body {
-    background-color: beige;
-    color: darkblue; /* Applies white text color to all text */
+    background-color: #3B82F6    ;
+    color: white; /* Applies white text color to all text */
     font-family: Arial, sans-serif;
 }
+
+head{
+    background-color: darkblue;
+}
+header{
+    background-color: #22C55E
+
+    ;
+}
+a{
+    color: gold;
+}
 h4{
-    color: red;
+    color: darkviolet;
     text-align: left;
 }h3
 {
@@ -17,11 +29,11 @@ h2{
     text-align: left;
 }
 h1{ 
-    color: darkblue;
+    color: red;
     text-align: center;
 }
 p {
-    color: white; /* Ensures all paragraphs are white */
+    color: black; /* Ensures all paragraphs are white */
     font-size: 16px;
     line-height: 1.5;
 }
