@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    a:hover{
+        color: red;
+    }
+    #errmsg{
+        color: red;
+    }
+    .father{
+        color: blue;
+    }
+    .son{
+        color: blueviolet;
+    }
+    .grandson{
+        color: chartreuse;
+    }
+    h1{
+        color: green;
+    }
+    p{
+        color: purple;
+    }
+    *{
+        color: green;
+    }
+</style>
+<body>
+    the first example is for #(tagging id method)
+<p>
+        < p id="errmsg" >this is an errormsg < /p >
+        <p id="errmsg">this is an errormsg</p>
+
+</p>
+
+<p class="father">
+    < p class="father" ><br>
+    will make any text blue in that class <br>  
+     < /p >
+
+
+</p>
+<h1  id="errmsg" class="father" style="color: aqua;" >
+    this is a test for who will win in an inheritence competition
+    <p >asdasdads</p>
+    (but inbedded is STRONGER)
+    id>class>style
+    <br>
+    < h1  id="errmsg" class="father" style="color: aqua;" ><br>
+        this is a test for who will win in an inheritence competition
+       <br> < p >asdasdads</ p>
+        <br>(but inbedded is STRONGER)
+       <br> inbedded>id>class>style
+    <br>< /h1 >
+    
+</h1>
+this text is green because i used *{} <br>
+    <h2 class="father son grandson">this h2 contains 2 classes the last class won the battle of conflicts</h2>
+<a href="https://www.google.com",style="text-align: center;">google.com</a>
+</body>
+</html>
