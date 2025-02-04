@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+    background-color: #050505;
+    color: #ff0080;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 0px 0px 10px #ff0080;
+}
+
+a {
+    color: #00ffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ffcc00;
+    text-shadow: 0px 0px 15px #ffcc00;
+}
+
+h1, h2, h3 {
+    color: #ffcc00;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 15px #ffcc00;
+}
+
+button {
+    background: linear-gradient(45deg, #ff0080, #ffcc00);
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #ffcc00;
+}
+
+button:hover {
+    box-shadow: 0px 0px 15px #ff0080;
+}
+
+.neon-glow {
+    text-shadow: 0px 0px 15px #ff0080, 0px 0px 25px #ff0080;
+}

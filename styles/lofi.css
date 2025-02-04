@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+    background-color: #2e2a2a;
+    color: #e6d5b8;
+    font-family: 'Indie Flower', cursive;
+}
+
+a {
+    color: #e6a8a8;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e67e7e;
+}
+
+h1, h2, h3 {
+    color: #ffaf87;
+    font-weight: bold;
+}
+
+button {
+    background: #e67e7e;
+    color: #2e2a2a;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e6a8a8;
+}
+
+.grainy {
+    background: url('https://www.transparenttextures.com/patterns/asfalt-light.png');
+}
