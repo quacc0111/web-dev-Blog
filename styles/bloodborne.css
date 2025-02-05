@@ -1,0 +1,19 @@
+/* File: bloodborne.css */
+* {
+    background-color: #0d0d0d;
+    color: #b31212;
+    font-family: 'Gothic A1', sans-serif;
+}
+ h1, h2 {
+    color: #990000;
+    text-shadow: 4px 4px 15px rgba(139, 0, 0, 0.8);
+}
+ button {
+    background-color: #5c0e0e;
+    border: 1px solid #b31212;
+    color: white;
+}
+ button:hover {
+    background-color: #b31212;
+    border-color: #5c0e0e;
+}

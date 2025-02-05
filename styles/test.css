@@ -1,0 +1,26 @@
+.box{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+.boxmodel{
+    border: 1px solid teal;
+    padding: 1rem;
+    margin: 1rem;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color:white;
+}
+header{
+    background-color: rgb(72, 201, 241);
+
+}

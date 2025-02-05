@@ -1,0 +1,35 @@
+/* Minimal Theme - Beige, Red, Blue, White */
+body {
+    background-color: #f5f5dc; /* Beige */
+    color: #2b2b2b;
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #b31212; /* Red */
+}
+
+p, a {
+    color: #2b2b2b;
+}
+
+a:hover {
+    color: #0044cc; /* Blue */
+}
+
+button {
+    background-color: #0044cc; /* Blue */
+    color: white;
+    border: 2px solid #b31212; /* Red Accent */
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #b31212;
+    color: white;
+    border-color: #0044cc;
+}

@@ -1,0 +1,17 @@
+/* File: elden-ring.css */
+*{
+    background-color: #2b2b2b;
+    color: #c4a000;
+    font-family: 'Cinzel', serif;
+}
+h1, h2 {
+    text-shadow: 2px 2px 10px rgba(255, 215, 0, 0.7);
+}
+button {
+    background: linear-gradient(45deg, #c4a000, #7a6000);
+    border: 1px solid #c4a000;
+    color: white;
+}
+button:hover {
+    background: linear-gradient(45deg, #7a6000, #c4a000);
+}

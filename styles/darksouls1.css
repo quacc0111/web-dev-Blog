@@ -1,0 +1,18 @@
+* {
+    background-color: #1a1a1a;
+    color: #aaaaaa;
+    font-family: 'Old English Text MT', serif;
+}
+h1, .dark-souls h2 {
+    text-shadow: 3px 3px 5px black;
+    color: #c0c0c0;
+}
+button {
+    background-color: #444;
+    border: 2px solid #666;
+    color: white;
+}
+button:hover {
+    background-color: #222;
+    border-color: #888;
+}
