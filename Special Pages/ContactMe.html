@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactMe</title>
+    <link rel="stylesheet" href="/styles/minimal.css">
+    <header>
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Y9rnx38TWSrujhZMEvdw9QHaFj%26pid%3DApi&f=1&ipt=7ff5f17154a8c57f23c027ae6e7c465354d2d91c485aa0a28528fa63e0071d68&ipo=images" width="200" height="200" alt="Quacc011" style="padding-left: 70%;">
+        <h3>enter info here:</h3>
+
+    </header>
+</head>
+<body>
+    <!--form sections-->
+    <section id="Forms">
+        <!-- name -->
+        <div class="form-group">
+            <label for="name" >name:</label> <input type="text"  name="name" id="name"   placeholder="enter your name ." required>
+        </div>
+    <!-- email -->
+        <div class="form-group">
+            <label for="Email" >Email:</label> <input type="email"  name="Email" id="Email"   placeholder="enter your Email ." required>
+        </div>
+<!-- DOB -->
+        <div class="form-group">
+           <label for="Date of Birth">Date of Birth</label> <input type="date" required>
+        </div>
+
+
+<!-- number -->
+        <div class="form-group">
+            <label for="number">number:</label> <input type="number" name="number" id="number" minlength="0" maxlength="12" placeholder="enter your number." required>
+        </div>
+<!-- age -->
+        <div class="form-group">
+            <label for="age">age:</label> <input type="number" name="age" id="age" min="0" max="120"  placeholder="your age" >
+
+        </div>
+<!-- gender -->
+        <div class="form-group">
+            <label for="Gender">Gender:</label>
+            <label for="Male">Male</label>
+            <input type="radio" name="Male" value="Male" id="Male">
+
+            <label for="Female">Female</label>
+            <input type="radio" name="Female" value="Female" id="Female">
+        </div>
+<!-- nationality -->
+        <div class="form-group">
+            <label for="Nationality">Nationality</label>
+            <select name="Nationality" id="Nationality">
+
+                <optgroup label="Asia">
+                    <option value="qatari">Qatari</option>
+                    <option value="indian">Indian</option>
+                    <option value="pakistani">Pakistani</option>
+                </optgroup>
+
+                <optgroup label="Europe">
+                    <option value="London">London</option>
+                    <option value="Romanian">Romanian</option>
+                    <option value="French">French</option>
+                </optgroup>
+                <option value="Other">Other</option>
+
+            </select>
+<!-- message box -->
+            <div class="form-group">
+                <label for="Message">Message</label>
+                <textarea name="Message" id="Message" cols="20" rows="10" placeholder="enter your message here"></textarea>
+            </div>
+
+<!-- buttons -->
+           <div>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+           </div>
+
+        </div>
+    </section>
+    
+</body>
+</html>
