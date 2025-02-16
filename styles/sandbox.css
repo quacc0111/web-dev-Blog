@@ -1,0 +1,53 @@
+*{
+background-color: beige;
+}
+
+
+
+body{
+    font-family: 'Old English Text MT', serif;
+    
+}
+
+h1,h2,h3,h4,h5,h6{
+    border-radius:5px;   
+    text-shadow: 2px 2px 10px darkgoldenrod;
+    background-color: teal;
+    
+
+.box {
+    width: 10rem;
+    height: 5rem;
+    border: 0.2rem solid black; /* Regular border */
+    outline: 0.3rem dashed red; /* Outline outside the border */
+    margin: 1rem;
+    padding: 1em;
+    text-align: center;
+    font-size: 1rem;
+    background-color: lightgray;
+}
+
+}
+h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,h6:hover{
+    scale: 1.1;
+    transition: ease-in 0.3s;
+}
+a:hover{
+    text-shadow: 2px 2px 10px rgba(255, 215, 0, 0.7);
+    color: black;
+
+}
+li{
+    list-style:georgian;
+}
+article{
+outline: 2px solid red;
+}
+div{
+    outline: 2px solid red;
+
+}
+p{
+    outline: 2px solid red;
+
+}
