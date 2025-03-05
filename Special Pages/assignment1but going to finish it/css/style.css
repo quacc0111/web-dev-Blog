@@ -1,0 +1,563 @@
+/* I added this for you so do not remove it */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: antiquewhite; */
+}
+
+/* Base HTML styles */
+html {
+  font-family: "Inter", sans-serif;
+  font-size: 0.85rem;
+  line-height: 1.8;
+}
+
+/* Misc. classes */
+.idkimg {
+  display: flex;
+  height: 80px;
+}
+
+.welcomeText {
+  display: flex;
+  margin: 3rem;
+  margin-bottom: 1rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3 span {
+  color: skyblue;
+}
+
+/* Top header */
+#topheader {
+  box-sizing: content-box;
+  border-radius: 1rem;
+  background-color: lightcyan;
+  box-shadow: black 0px 7px 29px 0px;
+  /* Hover Effects */
+  transition: background-color 0.3s ease;
+}
+#topheader:hover {
+  background-color: #d3f1f1; /* Slightly darker or lighter on hover */
+
+
+}
+
+.txtunder {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: darkslategray;
+}
+
+/* Boxes and tags */
+.box .tag {
+  background-color: #6c79ff;
+  box-shadow: black 0px 7px 29px 0px;
+}
+
+ul {
+  display: flex;
+}
+
+/* Nav items hover effect */
+ul li {
+  list-style: none;
+  cursor: pointer; 
+  /* Hover Effects */
+  transition: color 0.3s ease;
+}
+ul li:hover {
+  color: #6c79ff; /* Change text color on hover */
+}
+
+.small-logo {
+  border-radius: 50%;
+  /* Hover Effects */
+  transition: transform 0.3s ease;
+}
+.small-logo:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Header */
+header {
+  box-sizing: content-box;
+  border-radius: 1rem;
+  background-color: beige;
+  box-shadow: black 0px 7px 29px 0px;
+}
+
+.bodyoftextinheader{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.l{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.r{
+  display: none;
+}
+/* Cards container */
+.cards {
+  margin: 0 1rem;
+  padding-bottom: 1rem;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Individual card */
+.card {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* Image (1) + Content (2) */
+  gap: 1rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 7px 29px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  margin: auto;
+  padding: 1rem;
+  align-items: center;
+  position: relative; /* For positioning .tag and .meta */
+
+  /* Hover Effects */
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  /* Hover Effects */
+  transition: transform 0.3s ease;
+}
+.card img:hover {
+  transform: scale(1.02);
+}
+
+.content {
+  display: grid;
+  grid-template-rows: auto auto auto; /* Tag, Title, Metadata */
+  gap: 0.5rem;
+  position: relative;
+}
+
+.tag {
+  /* Remove absolute positioning */
+  position: static;
+  margin-bottom: 0.5rem; /* Some spacing below the tag */
+  background: #6c79ff;
+  color: white;
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  border-radius: 15px;
+  width: fit-content;
+
+  /* Hover Effects */
+  transition: background-color 0.3s ease;
+}
+.tag:hover {
+  background-color: #5c68e0; /* Slight color shift on hover */
+}
+
+.meta {
+  /* Remove absolute positioning */
+  position: static;
+  font-size: 0.8rem;
+  color: #777;
+  margin-top: 0.5rem; /* some spacing above */
+  display: block;
+}
+
+/* Title inside card */
+.title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Another .box usage */
+.box {
+  border-radius: 10px;
+  box-shadow: black 0px 7px 29px 0px;
+  margin-top: 1rem;
+}
+
+/* Paragraphs */
+p {
+  margin: 1rem;
+  box-shadow: black 0px 7px 29px 0px;
+}
+
+/* Club activities block */
+.clubactivitiesblock {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* Buttons container */
+.buttons {
+  display: flex;
+  margin: 1rem 6rem 0 6rem;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+/* Buttons themselves */
+.button1,
+.button2 {
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  /* Hover Effects */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button1 {
+  background-color: darkmagenta;
+}
+.button1:hover {
+  background-color: #b400a9; /* darken or lighten on hover */
+  transform: translateY(-2px);
+}
+
+.button2 {
+  background-color: magenta;
+}
+.button2:hover {
+  background-color: #e900e9; /* darken or lighten on hover */
+  transform: translateY(-2px);
+}
+
+/* Load more button */
+.LoadMore {
+  display: flex;
+  margin: 1rem 6rem 0 6rem;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.loadbtn {
+  background-color: palegreen;
+  margin-right: 1rem;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  /* Hover Effects */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.loadbtn:hover {
+  background-color: #9dc98a; /* slightly deeper green */
+  transform: scale(1.05);
+}
+
+/* Footer base */
+.footerb {
+  margin-top: 10rem;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Footer image links container */
+.img-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footerimg {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+}
+.footerimg img {
+  width: 80px;
+  border-radius: 20rem;
+  /* Hover Effects */
+  transition: transform 0.3s ease;
+}
+.footerimg img:hover {
+  transform: scale(1.08);
+}
+
+/* Footer text under image */
+.text-under-img {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.text-under-img span {
+  color: #6c79ff;
+}
+
+/* Duplicate .img-links rule, consolidated above
+.img-links{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+*/
+
+/* Hide .otherstuff by default */
+.otherstuff {
+  display: none;
+}
+.MAINBODY{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.EXTRA{
+  display: none;
+}
+.GRIDBOX{
+  display: grid;
+  gap: 10px;
+  padding: 20px;
+  box-shadow: black 0px 7px 29px 0px;
+  border-radius: 1rem;
+  background-color: #d3f1f1;
+  grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+  max-width: auto;
+  margin: auto;
+
+}
+
+.gridboxtags{
+  background-color: #e0e7ef;
+  color: hsl(0, 0%, 29%);
+  border-radius: 20px;
+  margin: auto;
+}
+.gridboxtags:hover{
+  background-color: #5c68e0;
+  color: brown;
+
+  box-shadow: black 0px 7px 29px 0px;
+  transform: scale(1.1);  /* Slightly increases the size */
+  transition: all 0.2s ease-in-out;  /* Smooth transition */
+}
+
+
+
+.letstalk{
+  background-color: #d3f1f1;
+  box-shadow: black 0px 7px 29px 0px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+
+}
+.talkingtext{
+  margin-top: 2rem;
+  display: flex;
+  background-color: #c3d8d8;
+  border-radius: 1rem;
+
+}
+.talkingbottomimages{
+display: flex;
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 1rem;
+
+}
+.talkingbottomimages img{
+  border-radius: 80px;
+  width: 40px;
+}
+.talkingbottomimages img:hover{
+  box-shadow: black 0px 7px 29px 0px;
+  transform: scale(1.1);  /* Slightly increases the size */
+  transition: all 0.2s ease-in-out;  /* Smooth transition */
+
+}
+
+.formbox{
+  background-color: #d3f1f1;
+  box-shadow: black 0px 7px 29px 0px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+
+
+.textinform{
+  display: flex;
+  flex-wrap: wrap;
+}
+.emailbar{
+  display: flex;
+  background-color: #c3d8d8;
+  border-radius: 6px;
+
+}
+.submitbutton{
+  display: flex;
+  border-radius: 1rem;
+  background-color: #5c68e0;
+  color: whitesmoke;
+
+}
+.submitbutton:hover{
+  box-shadow: black 0px 7px 29px 0px;
+  transform: scale(1.1);  /* Slightly increases the size */
+  transition: all 0.2s ease-in-out;  /* Smooth transition */
+
+}
+
+/* Responsive tweaks */
+@media screen and (max-width: 400px) {
+  ol li {
+    display: flex;
+    justify-content: center;
+  }
+  .footerb {
+    flex-direction: column;
+  }
+
+  .card {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  /* Hide metadata on small screens */
+  .meta span {
+    display: none;
+  }
+
+  .card img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .box .thumbnail img {
+    width: 150px;
+    border-radius: 10px;
+    border: 3px solid #6c79ff;
+  }
+
+  ul {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+  }
+
+  .idkimg {
+    justify-content: center;
+  }
+
+  .clubactivitiesblock {
+    justify-content: center;
+  }
+
+  .content {
+    grid-template-rows: auto auto auto;
+    gap: 0.3rem;
+  }
+
+  .tag {
+    position: static;
+    margin: 0 auto; /* Adjust if needed */
+  }
+
+  .title {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .footerb {
+    display: flex;
+    justify-content: space-around;
+  }
+  #topheader {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  ul li {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+
+
+
+@media screen and (min-width: 800px) {
+  .footerb {
+    display: flex;
+    justify-content: space-around;
+  }
+  #topheader {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .otherstuff {
+    background-color: red;
+    border: solid 2px black;
+  }
+
+  ul li {
+    display: flex;
+    justify-content: space-between;
+  }
+  .EXTRA{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .EXTRA h3{
+    text-align: center;
+    color: #6c79ff;
+    margin-top: 1rem;
+  }
+  .bodyoftextinheader{
+    justify-content: space-evenly;
+  }
+  .r{
+    display: flex;
+  }
+  .r img{
+    border-radius: 180px;
+    width: auto;
+    height: auto;
+  }
+}
