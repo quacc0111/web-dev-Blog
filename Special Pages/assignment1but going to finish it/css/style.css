@@ -27,6 +27,7 @@ html {
   margin-bottom: 1rem;
   flex-direction: column;
   align-items: center;
+  gap: 1rem;
 }
 
 h3 span {
@@ -63,11 +64,13 @@ h3 span {
 
 ul {
   display: flex;
+  gap: 1rem;
 }
 
 /* Nav items hover effect */
 ul li {
   list-style: none;
+  gap: 1rem;
   cursor: pointer; 
   /* Hover Effects */
   transition: color 0.3s ease;
@@ -441,59 +444,83 @@ gap: 1rem;
   ol li {
     display: flex;
     justify-content: center;
+    transition: transform 0.3s ease;
+
   }
   .footerb {
     flex-direction: column;
+    transition: transform 0.3s ease;
+
   }
 
   .card {
     grid-template-columns: 1fr;
     text-align: center;
+    transition: transform 0.3s ease;
+
   }
 
   /* Hide metadata on small screens */
   .meta span {
     display: none;
+    transition: transform 0.3s ease;
+
   }
 
   .card img {
     width: 150px;
     height: auto;
     border-radius: 10px;
+    transition: transform 0.3s ease;
+
   }
 
   .box .thumbnail img {
     width: 150px;
     border-radius: 10px;
     border: 3px solid #6c79ff;
+    transition: transform 0.3s ease;
+
   }
 
   ul {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
+    transition: transform 0.3s ease;
+
   }
 
   .idkimg {
     justify-content: center;
+    transition: transform 0.3s ease;
+
   }
 
   .clubactivitiesblock {
     justify-content: center;
+    transition: transform 0.3s ease;
+
   }
 
   .content {
     grid-template-rows: auto auto auto;
     gap: 0.3rem;
+    transition: transform 0.3s ease;
+
   }
 
   .tag {
     position: static;
     margin: 0 auto; /* Adjust if needed */
+    transition: transform 0.3s ease;
+
   }
 
   .title {
     font-size: 1.2rem;
+    transition: transform 0.3s ease;
+
   }
 }
 
@@ -501,17 +528,24 @@ gap: 1rem;
   .footerb {
     display: flex;
     justify-content: space-around;
+    gap: 1rem;
+    transition: transform 0.3s ease;
+
   }
   #topheader {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
+    transition: transform 0.3s ease;
+
   }
 
   ul li {
     display: flex;
     justify-content: space-between;
+    transition: transform 0.3s ease;
+
   }
 }
 
@@ -522,42 +556,60 @@ gap: 1rem;
   .footerb {
     display: flex;
     justify-content: space-around;
+    transition: transform 0.3s ease;
+
   }
   #topheader {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
+    transition: transform 0.3s ease;
+
   }
 
   .otherstuff {
     background-color: red;
     border: solid 2px black;
+    transition: transform 0.3s ease;
+
   }
 
   ul li {
     display: flex;
     justify-content: space-between;
+    transition: transform 0.3s ease;
+
   }
   .EXTRA{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    transition: transform 0.3s ease;
+
   }
   .EXTRA h3{
     text-align: center;
     color: #6c79ff;
     margin-top: 1rem;
+    transition: transform 0.3s ease;
+
   }
   .bodyoftextinheader{
     justify-content: space-evenly;
+    transition: transform 0.3s ease;
+
   }
   .r{
     display: flex;
+    transition: transform 0.3s ease;
+
   }
   .r img{
     border-radius: 180px;
     width: auto;
     height: auto;
+    transition: transform 0.3s ease;
+
   }
 }
